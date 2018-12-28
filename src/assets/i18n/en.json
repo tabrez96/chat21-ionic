@@ -47,7 +47,7 @@
 
   "GREETING": "Hi, {{ value }}",
 
-  "ARCHIVED_CONVERSATIONS_PAGE_NO_CONVERSATIONS_ARCHIVED" : "There is no conversation in the archive", 
+  "ARCHIVED_CONVERSATIONS_PAGE_NO_CONVERSATIONS_ARCHIVED" : "There is no conversation in the archive",
 
   "INFO_SUPPORT_USER_ADDED_SUBJECT": "you",
   "INFO_SUPPORT_USER_ADDED_YOU_VERB": "have been added to ",
@@ -70,7 +70,7 @@
   "LABEL_ERROR_EMAIL": "Enter a valid email address.",
   "LABEL_ERROR_PASSWORD": "The password must be at least 6 characters.",
   "LABEL_LOGIN": "Login",
-  "LABEL_SIGIN": "Sig in",
+  "LABEL_SIGIN": "Sign up",
   "LABEL_FORGOT_PASSWORD": "Did you forget your password?",
 
   "LABEL_REGISTRATION": "Registration",

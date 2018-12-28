@@ -21,13 +21,13 @@ import { PopoverPage } from '../popover/popover';
 import { TYPE_POPUP_DETAIL_MESSAGE, TYPE_DIRECT, MAX_WIDTH_IMAGES, TYPE_MSG_TEXT, TYPE_MSG_IMAGE, MIN_HEIGHT_TEXTAREA,MSG_STATUS_SENDING, MSG_STATUS_SENT, MSG_STATUS_RETURN_RECEIPT } from '../../utils/constants';
 import { isPopupUrl, popupUrl, strip_tags, getSizeImg, urlify, convertMessageAndUrlify } from '../../utils/utils';
 import { TranslateService } from '@ngx-translate/core';
-import { Subscription } from '../../../node_modules/rxjs/Subscription';
+import { Subscription } from 'rxjs/Subscription';
 
 
 @IonicPage()
 @Component({
-  selector: 'page-dettaglio-conversazione',
-  templateUrl: 'dettaglio-conversazione.html',
+  selector: 'page-conversation-detail',
+  templateUrl: 'conversation-detail.html',
 })
 export class DettaglioConversazionePage extends _DetailPage{
   @ViewChild(Content) content: Content;

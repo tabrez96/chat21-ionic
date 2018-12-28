@@ -1,7 +1,7 @@
 import { Component, ViewChild, NgZone } from '@angular/core';
 import { Platform, MenuController, Nav, AlertController } from 'ionic-angular';
 import * as firebase from 'firebase/app';
-import { ListaConversazioniPage } from '../pages/lista-conversazioni/lista-conversazioni';
+import { ListaConversazioniPage } from '../pages/conversation-list/conversation-list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Config } from 'ionic-angular';

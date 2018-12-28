@@ -50,7 +50,7 @@ export class RegisterPage {
    * @param input 
    */
   elementChanged(input){
-    let field = input.inputControl.firstname;
+    let field = input.ngControl.name;
     this[field + "Changed"] = true;
   }
   /**
@@ -64,10 +64,10 @@ export class RegisterPage {
       // console.log(this.registerForm.value);
       // non faccio nulla perchè gli errori sono evidenziati in rosso nella pg html
     } else {
-      console.log("createAccount", this.authService);
       this.authService.register(this.registerForm.value.email, this.registerForm.value.password, this.registerForm.value.firstname, this.registerForm.value.lastname)
       .then((newUser) => {
         // creo current user detail
+        debugger;
         console.log("register",newUser.uid, this.userService);
         this.userService.saveCurrentUserDetail(newUser.uid, this.registerForm.value.email, this.registerForm.value.firstname, this.registerForm.value.lastname)
         .then(_ => {

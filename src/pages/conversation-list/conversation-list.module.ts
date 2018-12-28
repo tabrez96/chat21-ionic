@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { ListaConversazioniPage } from './lista-conversazioni';
+import { ListaConversazioniPage } from './conversation-list';
 import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({

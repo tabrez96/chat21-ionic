@@ -15,8 +15,8 @@ import { UsersPage } from '../pages/users/users';
 import { LoginPage } from '../pages/authentication/login/login';
 import { RegisterPage } from '../pages/authentication/register/register';
 import { ResetpwdPage } from '../pages/authentication/resetpwd/resetpwd';
-import { ListaConversazioniPage } from '../pages/lista-conversazioni/lista-conversazioni';
-import { DettaglioConversazionePage } from '../pages/dettaglio-conversazione/dettaglio-conversazione';
+import { ListaConversazioniPage } from '../pages/conversation-list/conversation-list';
+import { DettaglioConversazionePage } from '../pages/conversation-detail/conversation-detail';
 import { ProfilePage } from '../pages/profile/profile';
 import { InfoConversationPage } from '../pages/info-conversation/info-conversation';
 import { InfoMessagePage } from '../pages/info-message/info-message';
@@ -101,19 +101,19 @@ import { ArchivedConversationsPage } from '../pages/archived-conversations/archi
     IonicStorageModule.forRoot(),
     IonicModule.forRoot(MyApp,{
       firebaseConfig : {
-        apiKey: 'AIzaSyDWMsqHBKmWVT7mWiSqBfRpS5U8YwTl7H0',
-        authDomain: 'chat-v2-dev.firebaseapp.com',
-        databaseURL: 'https://chat-v2-dev.firebaseio.com',
-        projectId: 'chat-v2-dev',
-        storageBucket: 'chat-v2-dev.appspot.com',
-        messagingSenderId: '77360455507'
+        apiKey: "AIzaSyCNPFpNwq9h5oiOSxEDifxtDFWRoTcim4o",
+        authDomain: "chat-app-8391d.firebaseapp.com",
+        databaseURL: "https://chat-app-8391d.firebaseio.com",
+        projectId: "chat-app-8391d",
+        storageBucket: "chat-app-8391d.appspot.com",
+        messagingSenderId: "701168043320"
       },
       appConfig: {
-        tenant:"tilechat"
+        tenant:"Chat App"
       }
     }),
     IonicStorageModule.forRoot({
-      name: "tilechat",
+      name: "Chat App",
       storeName: 'contacts',
       driverOrder: ['indexeddb','sqlite', 'websql', 'indexeddb', 'localstorage']
     })

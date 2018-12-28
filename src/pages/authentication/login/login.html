@@ -23,7 +23,7 @@
       <ion-item>
         <ion-label stacked>{{ 'LABEL_PASSWORD' | translate }}</ion-label>
         <ion-input #password formControlName="password" type="password" (change)="elementChanged(password)"
-          placeholder="La tua password"
+          placeholder="Your password"
           [class.invalid]="!loginForm.controls.password.valid && (passwordChanged || submitAttempt)"></ion-input>
       </ion-item>
       <div class="div-error-message">

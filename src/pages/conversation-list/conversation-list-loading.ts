@@ -5,7 +5,7 @@
 // // pages
 // import { LoginPage } from '../authentication/login/login';
 // import { PlaceholderPage } from '../placeholder/placeholder';
-// import { DettaglioConversazionePage } from '../dettaglio-conversazione/dettaglio-conversazione';
+// import { DettaglioConversazionePage } from '../conversation-detail/conversation-detail';
 // import { UsersPage } from '../users/users';
 // import { _MasterPage } from '../_MasterPage';
 // import { PopoverPage } from '../popover/popover';
@@ -28,8 +28,8 @@
 
 // @IonicPage()
 // @Component({
-//   selector: 'page-lista-conversazioni',
-//   templateUrl: 'lista-conversazioni.html',
+//   selector: 'page-conversation-list',
+//   templateUrl: 'conversation-list.html',
 // })
 // export class ListaConversazioniPage extends _MasterPage {
 //   private conversations: Array<ConversationModel> = [];

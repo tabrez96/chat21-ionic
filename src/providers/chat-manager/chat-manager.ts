@@ -151,7 +151,7 @@ export class ChatManager {
   /// START metodi gestione messaggi conversazione ////
   /**
    * aggiungo la conversazione all'array delle conversazioni
-   * chiamato dall'inizialize di dettaglio-conversazione.ts
+   * chiamato dall'inizialize di conversation-detail.ts
    * @param handler 
    */
   addConversationHandler(handler) {
@@ -171,7 +171,7 @@ export class ChatManager {
   /**
    * cerco e ritorno una conversazione dall'array delle conversazioni
    * con conversationId coincidente con conversationId passato
-   * chiamato dall'inizialize di dettaglio-conversazione.ts
+   * chiamato dall'inizialize di conversation-detail.ts
    * @param conversationId 
    */
   getConversationHandlerByConversationId(conversationId):any {

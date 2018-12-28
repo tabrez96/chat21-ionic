@@ -1,6 +1,6 @@
 {
-  "name": "tilechat",
-  "short_name": "tilechat",
+  "name": "My Chat App",
+  "short_name": "Chat App",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, Events } from 'ionic-angular';
 import { ConversationModel } from '../../models/conversation';
 import { convertMessage } from '../../utils/utils';
-import { DettaglioConversazionePage } from '../dettaglio-conversazione/dettaglio-conversazione';
+import { DettaglioConversazionePage } from '../conversation-detail/conversation-detail';
 import { NavProxyService } from '../../providers/nav-proxy';
 import { DatabaseProvider } from '../../providers/database/database';
 

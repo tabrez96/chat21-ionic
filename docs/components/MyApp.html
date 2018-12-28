@@ -1399,7 +1399,7 @@
         <pre class="line-numbers"><code class="language-typescript">import { Component, ViewChild, NgZone } from &#x27;@angular/core&#x27;;
 import { Platform, MenuController, Nav, AlertController } from &#x27;ionic-angular&#x27;;
 import * as firebase from &#x27;firebase/app&#x27;;
-import { ListaConversazioniPage } from &#x27;../pages/lista-conversazioni/lista-conversazioni&#x27;;
+import { ListaConversazioniPage } from &#x27;../pages/conversation-list/conversation-list&#x27;;
 import { StatusBar } from &#x27;@ionic-native/status-bar&#x27;;
 import { SplashScreen } from &#x27;@ionic-native/splash-screen&#x27;;
 import { Config } from &#x27;ionic-angular&#x27;;
@@ -1531,7 +1531,7 @@ export class MyApp {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><!--<ion-split-pane> <ion-nav [root]="rootPage" #content main swipeBackEnabled="false"></ion-nav>  <ion-menu [content]="content">    <ion-header>      <ion-toolbar>        <ion-title>Pages</ion-title>      </ion-toolbar>    </ion-header>    <ion-content>      <ion-list>        <button ion-item *ngFor="let p of pages" (click)="openPage(p)">          {{p.title}}        </button>      </ion-list>    </ion-content>  </ion-menu>  <ion-nav [root]="rootPage" #content main swipeBackEnabled="false"></ion-nav></ion-split-pane>--><ion-split-pane (ionChange)="navProxy.onSplitPaneChanged($event._visible);">    <ion-nav [root]="masterPage" #masterNav></ion-nav>    <ion-nav [root]="detailPage" #detailNav main></ion-nav></ion-split-pane></div>'
-    var COMPONENTS = [{'name': 'ChatBubble', 'selector': 'chat-bubble'},{'name': 'DettaglioConversazionePage', 'selector': 'page-dettaglio-conversazione'},{'name': 'ElasticTextarea', 'selector': 'elastic-textarea'},{'name': 'ListaConversazioniPage', 'selector': 'page-lista-conversazioni'},{'name': 'LoginPage', 'selector': 'page-login'},{'name': 'MyApp', 'selector': ''},{'name': 'PlaceholderPage', 'selector': 'page-placeholder'},{'name': 'PopoverPage', 'selector': 'page-popover'},{'name': 'PopoverProfilePage', 'selector': 'page-popover-profile'},{'name': 'ProfilePage', 'selector': 'page-profile'},{'name': 'RegisterPage', 'selector': 'page-register'},{'name': 'ResetpwdPage', 'selector': 'page-resetpwd'},{'name': 'UpdateImageProfilePage', 'selector': 'page-update-image-profile'},{'name': 'UsersPage', 'selector': 'page-users'}];
+    var COMPONENTS = [{'name': 'ChatBubble', 'selector': 'chat-bubble'},{'name': 'DettaglioConversazionePage', 'selector': 'page-conversation-detail'},{'name': 'ElasticTextarea', 'selector': 'elastic-textarea'},{'name': 'ListaConversazioniPage', 'selector': 'page-conversation-list'},{'name': 'LoginPage', 'selector': 'page-login'},{'name': 'MyApp', 'selector': ''},{'name': 'PlaceholderPage', 'selector': 'page-placeholder'},{'name': 'PopoverPage', 'selector': 'page-popover'},{'name': 'PopoverProfilePage', 'selector': 'page-popover-profile'},{'name': 'ProfilePage', 'selector': 'page-profile'},{'name': 'RegisterPage', 'selector': 'page-register'},{'name': 'ResetpwdPage', 'selector': 'page-resetpwd'},{'name': 'UpdateImageProfilePage', 'selector': 'page-update-image-profile'},{'name': 'UsersPage', 'selector': 'page-users'}];
     var DIRECTIVES = [{'name': 'AutosizeDirective', 'selector': 'ion-textarea[autosize]'}];
     var ACTUAL_COMPONENT = {'name': 'MyApp'};
 </script>

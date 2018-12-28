@@ -56,6 +56,7 @@ export class UserService {
   saveCurrentUserDetail(uid: string, email: string, firstname: string, lastname: string){
     let timestamp = getNowTimestamp();
     console.log("saveCurrentUserDetail: ",this.urlNodeContacts, uid, firstname, lastname);
+    debugger;
     return firebase.database().ref(this.urlNodeContacts)
     .child(uid).set({uid:uid, email:email, firstname:firstname, lastname:lastname, timestamp:timestamp, imageurl:''})
   }

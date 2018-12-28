@@ -4,8 +4,8 @@ import { ViewController, Events, IonicPage, NavController } from 'ionic-angular'
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/map';
 // pages
-import { DettaglioConversazionePage } from '../dettaglio-conversazione/dettaglio-conversazione';
-//import { ListaConversazioniPage } from '../lista-conversazioni/lista-conversazioni';
+import { DettaglioConversazionePage } from '../conversation-detail/conversation-detail';
+//import { ListaConversazioniPage } from '../conversation-list/conversation-list';
 // services
 import { DatabaseProvider } from './../../providers/database/database';
 import { NavProxyService } from '../../providers/nav-proxy';
